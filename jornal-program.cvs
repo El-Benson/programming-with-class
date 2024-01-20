@@ -1,1 +1,15 @@
+class JournalEntry
+{
+    public string Prompt { get; set; }
+    public string Response { get; set; }
+    public string Date { get; set; }
 
+    // Methods and properties specific to a journal entry
+}
+
+class Journal
+{
+    private List<JournalEntry> entries = new List<JournalEntry>();
+
+    // Methods and properties related to managing the journal
+}
